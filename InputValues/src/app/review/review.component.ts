@@ -6,6 +6,6 @@ import { Component, Input } from "@angular/core";
 })
 
 export class reviewComponent{
- @Input() public GetData;
- @Input('GetSecondData') public secondway;
+ @Input() public Name;
+ @Input('Price') public Productcost;
 }
