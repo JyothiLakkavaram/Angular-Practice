@@ -6,5 +6,6 @@ import { Component, Input } from "@angular/core";
 })
 
 export class reviewComponent{
- @Input() Allreviews: any
+ @Input() public parentData;
+ @Input() allreviews;
 }
