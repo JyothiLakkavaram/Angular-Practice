@@ -9,14 +9,8 @@ export class AppComponent {
 Productname : string = 'NP';
 Productdescription: string = "This product is used for...";
 Productcost: number = 5000;
-Productreview = [
-      {
-        name: 'pavan', review: 'This product is good.'
-      },
-      {
-        name: 'Jyothi', review: 'This product is okay.'
-      }
-  ];
-  public name = 'Jyothi'
+Productreviews = [{'Vamsi': 'This is Good'},{'Hari':'five star one'}]
+  public oneway = 'One Way';
+  public secondway = 'Another way for this'
 
 }
