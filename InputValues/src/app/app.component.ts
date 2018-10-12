@@ -11,7 +11,7 @@ Productdescription: string = "This product is used for...";
 Productcost: number = 5000;
 Productreviews = [
             {name: 'Vamsi', review: 'This is Good'},
-            {name: 'Hari', review: 'five star one'},
+            {name: 'Hari', review: 'five star one'}
           ]
 
 
